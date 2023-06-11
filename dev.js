@@ -14,7 +14,6 @@ prompt.get([{
   type: 'string',
   default: '2023146',
 }], function (error, results) {
-  console.log(results);
   const version = results.version;
   typeof version === "string" && getWholeHappyEightResult(version, analyzeResult);
 });
